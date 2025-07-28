@@ -1,10 +1,8 @@
 <?php
 
-    $conn = mysqli_connect("localhost","root","","ecommers");
-    if($conn){
+$conn = mysqli_connect("localhost", "root", "", "ecommers");
+if ($conn) {
     echo "Database connected successfully!";
-}else{
+} else {
     echo "Database connection error.";
 }
-
-?>
